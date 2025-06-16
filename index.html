@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sandip Utkar - Portfolio</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <!-- Developer Attribution -->
+        <meta name="developer" content="Enhanced by AI Assistant">
+    </head>
+    <body class="bg-gray-50 text-gray-800">
+        <!-- Developer Attribution Badge -->
+        <div class="developer-badge no-print">
+            <a href="https://shubhamdhobe844.netlify.app/">Developed by Shubham
+                Dhobe</a>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="bg-white shadow-lg fixed w-full top-0 z-50 no-print">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-2xl font-bold text-gray-800">Sandip
+                            Utkar</h1>
+                    </div>
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a href="#home"
+                                class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+                            <a href="#about"
+                                class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">About</a>
+                            <a href="#experience"
+                                class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Experience</a>
+                            <a href="#skills"
+                                class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Skills</a>
+                            <a href="#education"
+                                class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Education</a>
+                            <a href="#contact"
+                                class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
+                        </div>
+                    </div>
+                    <div class="md:hidden">
+                        <button id="mobile-menu-button"
+                            class="text-gray-700 hover:text-blue-600 focus:outline-none"
+                            aria-label="Toggle menu">
+                            <i class="fas fa-bars text-xl"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="md:hidden hidden bg-white shadow-lg">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="#home"
+                        class="block text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+                    <a href="#about"
+                        class="block text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">About</a>
+                    <a href="#experience"
+                        class="block text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Experience</a>
+                    <a href="#skills"
+                        class="block text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Skills</a>
+                    <a href="#education"
+                        class="block text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Education</a>
+                    <a href="#contact"
+                        class="block text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home"
+            class="gradient-bg min-h-screen flex items-center justify-center text-white pt-16">
+            <div class="text-center px-4 max-w-4xl">
+                <div class="mb-8">
+                    <div
+                        class="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center shadow-xl overflow-hidden">
+                        <img src="./images/My_image.jpg" alt="Sandip Utkar"
+                            class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <h1 class="text-5xl md:text-7xl font-bold mb-4 fade-in">
+                    Sandip Utkar
+                </h1>
+                <div class="typing-container h-8 mb-6">
+                    <p class="text-xl md:text-2xl typing-animation"
+                        id="typing-text"></p>
+                </div>
+                <p class="text-lg mb-8 mx-auto fade-in max-w-2xl">
+                    Dedicated professional with 7 years of experience in office
+                    operations, financial management, and business
+                    administration.
+                </p>
+                <div
+                    class="flex flex-col sm:flex-row justify-center gap-4 fade-in">
+                    <a href="#contact"
+                        class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 shadow-md"
+                        onclick="smoothScroll('#contact')">
+                        Get In Touch
+                    </a>
+                    <a href="#about"
+                        class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition duration-300 shadow-md"
+                        onclick="smoothScroll('#about')">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 fade-in">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">About
+                        Me</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="fade-in">
+                        <div
+                            class="bg-gray-100 rounded-lg p-8 h-80 flex items-center justify-center overflow-hidden">
+                            <img src="./images/My_image 2.jpg"
+                                alt="Sandip Utkar"
+                                class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="fade-in">
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-6">Professional
+                            Summary</h3>
+                        <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                            I am a dedicated and detail-oriented professional
+                            with 7 years of comprehensive experience across
+                            various business roles. My expertise lies in
+                            efficiently managing responsibilities while
+                            contributing positively to team outcomes and
+                            organizational success.
+                        </p>
+                        <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                            I have developed strong proficiency in computer
+                            applications, financial tools, and office
+                            operations, making me a valuable asset in any
+                            business environment.
+                        </p>
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="text-center p-4 bg-blue-50 rounded-lg">
+                                <h4
+                                    class="text-2xl font-bold text-blue-600">7+</h4>
+                                <p class="text-gray-600">Years Experience</p>
+                            </div>
+                            <div class="text-center p-4 bg-blue-50 rounded-lg">
+                                <h4
+                                    class="text-2xl font-bold text-blue-600">100%</h4>
+                                <p class="text-gray-600">Dedication</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 fade-in">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Work
+                        Experience</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                </div>
+                <div class="max-w-4xl mx-auto">
+                    <div
+                        class="bg-white rounded-lg shadow-lg p-8 card-hover fade-in">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <div
+                                    class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-gem text-white"></i>
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <div
+                                    class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                                    <div>
+                                        <h3
+                                            class="text-xl font-bold text-gray-800">Sales
+                                            Operator & Stock Manager</h3>
+                                        <p
+                                            class="text-blue-600 font-semibold">Ganesh
+                                            Jewellery, Risod</p>
+                                    </div>
+                                    <div class="mt-2 md:mt-0">
+                                        <span
+                                            class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                                            2018 - 2025
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="text-gray-600 space-y-3">
+                                    <p class="flex items-center">
+                                        <i
+                                            class="fas fa-check-circle text-green-500 mr-3"></i>
+                                        Managed daily office operations and
+                                        administrative tasks
+                                    </p>
+                                    <p class="flex items-center">
+                                        <i
+                                            class="fas fa-check-circle text-green-500 mr-3"></i>
+                                        Handled data entry and maintained
+                                        accurate records
+                                    </p>
+                                    <p class="flex items-center">
+                                        <i
+                                            class="fas fa-check-circle text-green-500 mr-3"></i>
+                                        Prepared financial reports using Tally
+                                        ERP software
+                                    </p>
+                                    <p class="flex items-center">
+                                        <i
+                                            class="fas fa-check-circle text-green-500 mr-3"></i>
+                                        Managed inventory and stock control
+                                        systems
+                                    </p>
+                                    <p class="flex items-center">
+                                        <i
+                                            class="fas fa-check-circle text-green-500 mr-3"></i>
+                                        Provided excellent customer service and
+                                        sales support
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 fade-in">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Skills &
+                        Expertise</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="fade-in">
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-8">Technical
+                            Skills</h3>
+                        <div class="space-y-6">
+                            <div class="skill-item">
+                                <div class="flex justify-between mb-2">
+                                    <span
+                                        class="text-gray-700 font-medium">Tally
+                                        ERP</span>
+                                    <span class="text-gray-500">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700 font-medium">MS
+                                        Office Suite</span>
+                                    <span class="text-gray-500">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700 font-medium">Data
+                                        Entry & Documentation</span>
+                                    <span class="text-gray-500">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="flex justify-between mb-2">
+                                    <span
+                                        class="text-gray-700 font-medium">Basic
+                                        IT Troubleshooting</span>
+                                    <span class="text-gray-500">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fade-in">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-8">Soft
+                            Skills</h3>
+                        <div class="grid grid-cols-1 gap-4">
+                            <div
+                                class="bg-blue-50 p-4 rounded-lg flex items-center space-x-3">
+                                <i
+                                    class="fas fa-comments text-blue-600 text-xl"></i>
+                                <span
+                                    class="text-gray-700 font-medium">Communication</span>
+                            </div>
+                            <div
+                                class="bg-blue-50 p-4 rounded-lg flex items-center space-x-3">
+                                <i
+                                    class="fas fa-clock text-blue-600 text-xl"></i>
+                                <span class="text-gray-700 font-medium">Time
+                                    Management</span>
+                            </div>
+                            <div
+                                class="bg-blue-50 p-4 rounded-lg flex items-center space-x-3">
+                                <i
+                                    class="fas fa-users text-blue-600 text-xl"></i>
+                                <span class="text-gray-700 font-medium">Team
+                                    Collaboration</span>
+                            </div>
+                            <div
+                                class="bg-blue-50 p-4 rounded-lg flex items-center space-x-3">
+                                <i class="fas fa-eye text-blue-600 text-xl"></i>
+                                <span
+                                    class="text-gray-700 font-medium">Attention
+                                    to Detail</span>
+                            </div>
+                            <div
+                                class="bg-blue-50 p-4 rounded-lg flex items-center space-x-3">
+                                <i
+                                    class="fas fa-lightbulb text-blue-600 text-xl"></i>
+                                <span class="text-gray-700 font-medium">Problem
+                                    Solving</span>
+                            </div>
+                            <div
+                                class="bg-blue-50 p-4 rounded-lg flex items-center space-x-3">
+                                <i
+                                    class="fas fa-handshake text-blue-600 text-xl"></i>
+                                <span class="text-gray-700 font-medium">Customer
+                                    Service</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 fade-in">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Education
+                        & Certifications</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="fade-in">
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-6">Education</h3>
+                        <div
+                            class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
+                                        <i
+                                            class="fas fa-graduation-cap text-white"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4
+                                        class="text-xl font-bold text-gray-800 mb-2">Bachelor
+                                        of Commerce (B.Com)</h4>
+                                    <p
+                                        class="text-green-600 font-semibold mb-2">Sant
+                                        Kavikul Guru Kalidas University,
+                                        Nagpur</p>
+                                    <p class="text-gray-600">Year of Graduation:
+                                        2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fade-in">
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-6">Certifications</h3>
+                        <div class="space-y-4">
+                            <div
+                                class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                                <div class="flex items-start space-x-4">
+                                    <div class="flex-shrink-0">
+                                        <div
+                                            class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
+                                            <i
+                                                class="fas fa-certificate text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4
+                                            class="text-lg font-bold text-gray-800 mb-1">MS-CIT</h4>
+                                        <p
+                                            class="text-blue-600 font-medium">Maharashtra
+                                            State Certificate in Information
+                                            Technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                                <div class="flex items-start space-x-4">
+                                    <div class="flex-shrink-0">
+                                        <div
+                                            class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center">
+                                            <i
+                                                class="fas fa-calculator text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h4
+                                            class="text-lg font-bold text-gray-800 mb-1">Tally
+                                            ERP</h4>
+                                        <p
+                                            class="text-purple-600 font-medium">Accounting
+                                            Software Certification</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 fade-in">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Get In
+                        Touch</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+                    <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+                        I'm always open to discussing new opportunities and
+                        connecting with fellow professionals.
+                    </p>
+                </div>
+                <div class="max-w-4xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="fade-in">
+                            <h3
+                                class="text-2xl font-bold text-gray-800 mb-6">Contact
+                                Information</h3>
+                            <div class="space-y-4">
+                                <div
+                                    class="flex items-center space-x-4 p-4 bg-gray-50 rounded-lg">
+                                    <div class="flex-shrink-0">
+                                        <i
+                                            class="fas fa-phone text-blue-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <p
+                                            class="text-gray-700 font-medium">Phone</p>
+                                        <p class="text-gray-600">+91
+                                            7499625148</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center space-x-4 p-4 bg-gray-50 rounded-lg">
+                                    <div class="flex-shrink-0">
+                                        <i
+                                            class="fas fa-envelope text-blue-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <p
+                                            class="text-gray-700 font-medium">Email</p>
+                                        <p
+                                            class="text-gray-600">sandiputkar123@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center space-x-4 p-4 bg-gray-50 rounded-lg">
+                                    <div class="flex-shrink-0">
+                                        <i
+                                            class="fas fa-map-marker-alt text-blue-600 text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <p
+                                            class="text-gray-700 font-medium">Location</p>
+                                        <p class="text-gray-600">Risod,
+                                            Maharashtra, India</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fade-in">
+                            <h3
+                                class="text-2xl font-bold text-gray-800 mb-6">Send
+                                a Message</h3>
+                            <form id="contact-form" class="space-y-4">
+                                <div>
+                                    <label for="name" class="sr-only">Your
+                                        Name</label>
+                                    <input type="text" id="name" name="name"
+                                        placeholder="Your Name" required
+                                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+                                </div>
+                                <div>
+                                    <label for="email" class="sr-only">Your
+                                        Email</label>
+                                    <input type="email" id="email" name="email"
+                                        placeholder="Your Email" required
+                                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+                                </div>
+                                <div>
+                                    <label for="message" class="sr-only">Your
+                                        Message</label>
+                                    <textarea id="message" name="message"
+                                        rows="4" placeholder="Your Message"
+                                        required
+                                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"></textarea>
+                                </div>
+                                <button type="submit"
+                                    class="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="gradient-bg text-white py-8">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h3 class="text-2xl font-bold mb-4">Sandip Utkar</h3>
+                    <p class="text-gray-200 mb-6">Dedicated Professional |
+                        Business Operations Expert</p>
+                    <div class="flex justify-center space-x-6 mb-6">
+                        <a href="tel:+917499625148"
+                            class="text-white hover:text-gray-200 transition duration-300">
+                            <i class="fas fa-phone text-xl"></i>
+                        </a>
+                        <a href="mailto:sandiputkar123@gmail.com"
+                            class="text-white hover:text-gray-200 transition duration-300">
+                            <i class="fas fa-envelope text-xl"></i>
+                        </a>
+                        <a href="#"
+                            class="text-white hover:text-gray-200 transition duration-300">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                    </div>
+                    <div class="border-t border-gray-300 pt-6">
+                        <p class="text-gray-200">&copy; 2025 Sandip Utkar. All
+                            rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
